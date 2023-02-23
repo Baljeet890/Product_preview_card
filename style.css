@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+
+/* } */
+body{
+   background-color: hsl(30, 38%, 92%);
+   height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.container{
+     /* border: 2px solid black; */
+     max-width: 580px;
+     height: 450px;
+     margin: 0 auto;
+     display: flex;
+     border-radius: 12px ;
+     overflow: hidden;
+    
+    
+}
+.left{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    background-image: url('/images/image-product-desktop.jpg');
+    background-size: cover;
+    overflow: hidden;
+    
+
+}
+.right{
+    /* border: 2px solid green; */
+        width: 50%;
+        height: 100%;
+        padding: 22px;
+        background-color:white;
+
+    
+}
+.right h5{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 8px;
+    margin-bottom: 21px;
+    color: hsl(228, 12%, 48%);
+    
+
+}
+.right h1{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+}
+.mainpara{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-top: 21px;
+    line-height: 1.5;
+}
+p{
+    margin-top: 40px;
+}
+.bigP{
+    color: hsl(158, 36%, 44%);
+    font-family: Fraunces;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 40px;
+    /* color: red; */
+}
+.smallP{
+    color : hsl(228, 12%, 48%);
+    display: inline-block;
+    transform:translateY(-6px);
+     margin-left: 12px;    
+
+}
+.btn{
+    background-color:  hsl(158, 36%, 44%);
+    padding: 12px;
+    outline: none;
+    border: none;
+    width: 240px;
+    margin-top: 32px;
+    border-radius : 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color:white;
+
+
+}
+img{
+    margin-right: 10px;
+}
